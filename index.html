@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>Check all warning signs that apply to you.</p>
+          <input type="checkbox" name="signs" value="sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="signs" value="foggy"> Foggy brain.<br>
+          <input type="checkbox" name="signs" value="overwhelmed"> Feeling overwhelmed.<br>
+          </div>
+        <div class="form-group">
+          <p>Check all symptoms of stress that apply to you.</p>
+          <input type="checkbox" name="symptoms" value="pressure"> High Blood Pressure.<br>
+          <input type="checkbox" name="symptoms" value="irritablility"> Irritability<br>
+          <input type="checkbox" name="symptoms" value="anxiety"> Anxiety.<br>
+        </div>
+        <div class="form-group">
+          <p>Check all stress coping methods that you use.</p>
+          <input type="checkbox" name="coping" value="meditation"> Meditation.<br>
+          <input type="checkbox" name="coping" value="pet"> Do you have a pet?<br>
+          </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="responses1" class="responseAll">
+        <p><b>You have Level 1 Stress: Here are some coping methods to help deal with your stress:</b></p>
+      </span>
+      <span id="responses2" class="responseAll">
+        <p><b>You have Level 3 Stress: Here are some coping methods to help deal with your stress:</b></p>
+      </span>
+      <span id="responses3"
+      class="responseAll">
+        <p><b>You have Level 4 Stress: Here are some coping methods to help deal with your stress:</b></p>
+      </span>
+      <span id="responses4" class="responseAll">
+        <p><b>You have Level 6 Stress: Here are some coping methods to help deal with your stress:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
